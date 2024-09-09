@@ -1,0 +1,59 @@
+.cbody-final{
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+    background-color:#fa9e08;
+    text-align: center;
+
+}
+#hfinal{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    position: relative;
+    top: 100px;
+}
+#bth-final{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(253, 107, 10);
+    position: relative;
+    top: 120px;
+    border: 0;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.cfinal1{
+    width: 200px;
+    height: 350px;
+    position: relative;
+    bottom: 125px;
+  
+
+}
+.cfinal2{
+    width: 200px;
+    height: 350px;
+    position: relative;
+    left: 1150px;
+    bottom: 473px;
+}
+#saladef{
+    width: 100%;
+    height: 100%;
+}
+#fritef{
+    width: 100%;
+    height: 100%;position: relative;
+    bottom: 3px;
+
+}
+
+
+#bte-des:hover{
+   color: black;
+    background-color:goldenrod;
+   
+}

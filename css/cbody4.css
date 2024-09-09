@@ -1,0 +1,249 @@
+
+.cbody4{
+    max-width: 100%;
+    height: 550px;
+    background: linear-gradient(to bottom, #fff5e1, #fff);
+    
+}
+.hb4{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+#burger-image{
+    position: relative;
+    left: 100px;
+    top: 20px;
+   height: 300px;
+   width: 300px;
+}
+#hburger{
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+}
+#im1{
+    position: relative;
+    right: 600px;
+    top: 30px;
+    color: #FF6F00;
+    font-size: large;
+}
+#sb{
+    position: relative;
+    right: 600px;
+    color: #FF6F00;
+    top: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+.book{
+    width: 200px;
+    height: 50px;
+    background-color: #FF6F00;
+    border-radius: 1em;
+    position: relative;
+    text-align: center;
+    padding-top:10px;
+
+}
+#pos1{
+    right: 640px;
+    top: 110px; 
+
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+#bp{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    right: 740px;
+    top: 60px;
+}
+#toffes-cake-image{
+    position: relative;
+    left: 400px;
+    bottom: 320px;
+   height: 200px;
+   width: 200px;
+   border-radius: 1em;
+
+}
+#htoffes{
+    position: relative;
+    left: 400px;
+    bottom: 310px;
+
+}
+#im2{
+    position: relative;
+    bottom: 250px;
+    color: #FF6F00;
+    font-size: large;
+    right: 320px;
+}
+#sts{
+    position: relative;
+    right: 320px;
+    color: #FF6F00;
+    bottom: 250px;
+    font-weight: bold;
+    font-size: large;
+}
+#tsp{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    right: 420px;
+    bottom: 230px;
+}
+#orl2{
+    position: relative;
+    bottom: 210px;
+    right: 360px;
+}
+
+#dancake-image{
+    position: relative;
+    bottom: 630px;
+    left: 620px;
+    width: 200px;
+    height: 200px;
+    border-radius: 1em;
+
+}
+#hdancake{
+    position: relative;
+    bottom: 630px;
+    left: 620px;
+
+}
+#im3{
+    position: relative;
+    color: #FF6F00;
+    font-size: large;
+    bottom: 570px;
+    right: 90px;
+}
+#sdn{
+    position: relative;
+    color: #FF6F00;
+    font-weight: bold;
+    font-size: large;
+    bottom: 570px;
+    right: 90px;
+
+}
+#dsp{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    bottom: 550px;
+    right: 210px;
+
+}
+#orl3{
+    position: relative;
+    bottom: 530px;
+    right: 100px;
+}
+#crispy-image{
+    position: relative;
+    bottom: 940px;
+    left: 850px;
+    width: 200px;
+    height: 200px;
+    border-radius: 1em;
+
+}
+#hcrispy{
+    position: relative;
+    bottom: 940px;
+    left: 850px;
+
+}
+#im4{
+    position: relative;
+    color: #FF6F00;
+    font-size: large;
+    bottom: 880px;
+    left: 140px;
+}
+#scr{
+    position: relative;
+    color: #FF6F00;
+    font-weight: bold;
+    font-size: large;
+    bottom: 880px;
+    left: 140px;
+
+}
+#csp{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    bottom: 860px;
+
+}
+#orl4{
+    position: relative;
+    bottom: 850px;
+    left: 160px;
+}
+#thai-image{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 1em;
+        bottom: 1250px;
+        left: 1120px;
+    
+}
+#hsoup{
+    bottom: 1250px;
+    left: 1120px;
+    position: relative;
+
+}
+#im5{
+    position: relative;
+    color: #FF6F00;
+    font-size: large;
+    bottom: 1190px;
+    left: 420px;
+}
+#sth{
+    position: relative;
+    color: #FF6F00;
+    font-weight: bold;
+    font-size: large;
+    bottom: 1190px;
+    left: 420px;
+
+}
+#thp{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    bottom: 1170px;
+    left: 300px;
+}
+#orl5{
+    position: relative;
+    bottom: 1170px;
+    left: 400px;
+}
+.carousel-inner {
+    display: flex;
+    animation: slide 15s infinite; 
+}
+    /* Animation CSS */
+    @keyframes slide {
+        0% { opacity: 1; }
+        33% { opacity: 0; }
+        66% { opacity: 0; }
+        100% { opacity: 1; }
+    }

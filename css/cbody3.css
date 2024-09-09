@@ -1,0 +1,94 @@
+
+.cbody3{
+    max-width: 100%;
+    height: 550px;
+    background: linear-gradient(to bottom, #fff5e1, #fff);
+    position: relative;
+}
+#titre{
+    color: #FF6F00;
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+.icon-cb3{
+    color:orange;
+    font-weight: bold;
+    font-size: 200px;
+
+}
+#mapl{
+    left: 200px;
+    position: relative;
+}
+.text-choice{
+    font-weight: bold;
+    font-size: x-large;
+   
+}
+#mp{
+    position: relative;
+    left: 190px;
+    bottom: 20px;
+}
+#choice1{
+    position: relative;
+    left: 210px;
+    bottom: 20px;
+
+}
+#alarm{
+    left: 500px;
+    position: relative;
+    bottom: 400px;
+
+}
+#choice2{
+    left: 500px;
+    position: relative;
+    bottom: 415px;
+}
+#mpp{
+    left: 500px;
+    position: relative;
+    bottom: 415px;
+
+}
+#mapy{
+    left: 750px;
+    position: relative;
+    bottom: 820px;
+
+}
+#mpd{
+    left: 780px;
+    position: relative;
+    bottom: 840px;
+
+}
+#choice3{
+    left: 800px;
+    position: relative;
+    bottom: 840px;
+}
+#mapf{
+    left: 1000px;
+    position: relative;
+    bottom: 1240px;
+
+}
+#choice4{
+    left: 1040px;
+    position: relative;
+    bottom: 1260px;
+}
+#mpf{
+    left: 1040px;
+    position: relative;
+    bottom: 1260px;
+
+}
+.spacer{
+    max-width: 100%;
+    height: 100px;
+}

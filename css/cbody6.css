@@ -1,0 +1,208 @@
+
+.cbody6{
+    width: 100%;
+    max-width: 100%;
+    height: 550px;
+    background: linear-gradient(to bottom, #fff5e1, #fff);
+    display: flex;
+}
+.box2{
+    width: 330px;
+    height: 330px;
+    background: linear-gradient(to bottom, #fff5e1, #fff);
+    margin: 50px;
+    padding: 20px;
+}
+.img-center{
+    width: 200px;
+    height: 200px;
+    border: 0.5em;
+}
+#ruby-fast{
+    position: relative;
+    bottom: 180px;
+
+}
+#ruby-orange-cart{
+    position: relative;
+    bottom: 220px;
+
+
+}
+#ruby-logo{
+    background-color: chocolate;
+    position: relative;
+    bottom: 75px;
+    right: -5px;
+    margin: 3px;
+
+
+}
+#ruby-ticket{
+    position: relative;
+    bottom: 140px;
+    left: 90px;
+    width: 120px;
+
+
+}
+.orange-cart2{
+    width: 80px;
+    height: 40px;
+    background-color:#FF6F00;
+    border-radius: 0.2em;
+    z-index: 3;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.ruby-ticket-component{
+    position: relative;
+    bottom: 180px;
+    font-size: medium;
+    left: 100px;
+
+}
+#opn1{
+    position: relative;
+    bottom: 160px;
+    font-size: medium;
+    margin: 3px;
+    padding: 3px;
+
+}
+#chicken1{
+    position: relative;
+    bottom: 140px;
+    left: 90px;
+    width: 120px;
+
+}
+#fried-chicken-logo{
+    background-color: green;
+    position: relative;
+    bottom: 75px;
+    right: -5px;
+    margin: 3px;
+    color: black;
+    text-align: center;
+}
+#kfc{
+    position: relative;
+    top: 20px;
+    color: white;
+}
+#fried-chicken-orange-cart{
+    position: relative;
+    bottom: 220px;
+
+}
+#chicken-fast{
+    position: relative;
+    bottom: 175px;
+
+}
+.fried-chicken-ticket-component{
+    position: relative;
+    font-size: medium;
+    color: black;
+
+}
+#opn2{
+    position: relative;
+    top: 10px;
+    font-size: medium;
+    margin: 3px;
+    padding: 3px;
+    right: 85px;
+
+}
+#opn3{
+    position: relative;
+    top: 15px;
+    font-size: medium;
+    margin: 3px;
+    padding: 3px;
+    right: 85px;
+
+}
+#chicken2{
+    position: relative;
+    bottom: 140px;
+    left: 90px;
+    width: 120px;
+
+}
+#fried-chicken-logo2{
+    background-color: red;
+    position: relative;
+    bottom: 75px;
+    right: -5px;
+    margin: 3px;
+    color: white;
+    text-align: center;
+}
+#kfc2{
+    position: relative;
+    top: 20px;
+
+}
+#fried-chicken-orange-cart2{
+    position: relative;
+    bottom: 220px;
+
+}
+#chicken-fast2{
+    position: relative;
+    bottom: 175px;
+
+}
+.fried-chicken-ticket-component2{
+    position: relative;
+    font-size: medium;
+    color: black;
+
+}
+#opn4{
+    position: relative;
+    top: 35px;
+    font-size: medium;
+    margin: 3px;
+    padding: 3px;
+    right: 85px;
+
+}
+#taco{
+    position: relative;
+    bottom: 140px;
+    left: 90px;
+    width: 120px;
+
+}
+#taco-logo{
+    background-color:peru;
+    position: relative;
+    bottom: 75px;
+    right: -5px;
+    margin: 3px;
+    color: white;
+    text-align: center;
+
+}
+#taco-orange-cart2{
+    position: relative;
+    bottom: 220px;
+
+}
+#taco-fast{
+    position: relative;
+    bottom: 175px;
+
+}
+#btn-view{
+    background-color: #FF6F00;
+    width: 100px;
+    height: 35px;
+    border: 0.5em;
+    position: relative;
+}

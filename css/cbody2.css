@@ -1,0 +1,222 @@
+
+.cbody2{
+    max-width: 100%;
+    height: 550px;
+    background-color: beige;
+    display: flex;
+}
+#legumes-img{
+    position: relative;
+    left: 50px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 1em;
+}
+#pasta-img{
+    position: relative;
+    left: 70px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 1em;
+
+
+}
+#soupe-img{
+    position: relative;
+    left: 90px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 1em;
+
+
+}
+#salade-img{
+    position: relative;
+    left: 110px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 1em;
+
+
+}
+.price-container{
+    width: 120px;
+    height: 100px;
+    background-color: #FF6F00;
+    position: relative;
+    border-radius: 1em;
+
+}
+#pcs{
+    left: 90px;
+}
+#pcsl{
+    left: 110px;
+}
+#pcslg{
+    left: 50px;
+}
+#pcsp{
+    left: 70px;
+}
+.price{
+    color: rgb(247, 35, 151);
+}
+#price-legumes{
+    left: 60px;
+    position: relative;
+     bottom: 90px;
+     font-size: 4em;
+     font-weight: bold;
+     color: white;
+}
+#pourcent{
+    position: relative;
+    bottom: 160px;
+    left: 133px;
+    color: white;
+}
+#offl{
+    position: relative;
+    bottom: 170px;
+    left: 133px;
+    font-weight: bold;
+    color: white;
+
+}
+#price-pasta{
+    left: 80px;
+    position: relative;
+     bottom: 90px;
+     font-size: 4em;
+     font-weight: bold;
+     color: white;
+
+}
+#pourcent-p{
+    position: relative;
+    bottom: 160px;
+    left: 155px;
+    color: white;
+
+}
+#offp{
+    position: relative;
+    bottom: 170px;
+    left: 155px;
+    font-weight: bold;
+    color: white;
+
+}
+#price-sp{
+    left: 100px;
+    position: relative;
+     bottom: 90px;
+     font-size: 4em;
+     font-weight: bold;
+     color: white;
+
+}
+#pourcent-sp{
+    position: relative;
+    bottom: 160px;
+    left: 170px;
+    color: white;
+
+}
+#off-sp{
+    position: relative;
+    bottom: 170px;
+    left: 170px;
+    font-weight: bold;
+    color: white;
+
+}
+#price-sl{
+    left: 120px;
+    position: relative;
+     bottom: 90px;
+     font-size: 4em;
+     font-weight: bold;
+     color: white;
+
+}
+#pourcent-sl{
+    position: relative;
+    bottom: 160px;
+    left: 195px;
+    color: white;
+
+}
+#off-sl{
+    position: relative;
+    bottom: 170px;
+    left: 190px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.titre-image{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.text-remaining{
+    color: #FF6F00;
+    background-color: pink;
+    font-weight: bold;
+    width: 150px;
+}
+#h2l{
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+
+}
+#rml{
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+
+}
+#h2p{
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+
+}
+#rmp{
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+
+}
+#h2sp{
+    position: relative;
+    bottom: 150px;
+    left: 90px;
+
+}
+#rmsp{
+    position: relative;
+    bottom: 150px;
+    left: 90px;
+
+}
+#h2sl{
+    position: relative;
+    bottom: 150px;
+    left: 110px;
+
+}
+#rmsl{
+    position: relative;
+    bottom: 150px;
+    left: 110px;
+
+}

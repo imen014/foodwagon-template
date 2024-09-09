@@ -1,0 +1,231 @@
+.cbody8{
+    width: 100%;
+    max-width: 100%;
+    height: 550px;
+    background-color: antiquewhite;
+    overflow-x:visible;
+}
+.cbody8-container{
+    width: 80%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    top: 100px;
+    display: flex;
+    border: white;
+}
+.pub1{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    border-right: 0.1em black solid;
+
+}
+.hdisc{
+    font-weight: bold;
+    font-size: xx-large;
+    background: linear-gradient(to right, #db3208, #f96f05);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;  
+    
+}
+.c{
+    position: relative;
+}
+#idisc{
+    font-weight:bold;
+    font-size:100px;
+    background: linear-gradient(to right, #db3208, orange);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;  
+}
+.pub1 h1{
+    position: relative;
+   left: 150px;
+   bottom: 100px;
+}
+.pub2{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-right: 0.1em black solid;
+}
+#ipub2{
+    font-weight:bold;
+    font-size:100px;
+    background: linear-gradient(to right, #db3208, orange);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;  
+
+}
+.hpub2{
+    font-weight: bold;
+    font-size: xx-large;
+    background: linear-gradient(to right, #db3208, #f96f05);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;  
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+
+}
+.pub3{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+}
+#ipub3{
+    font-weight:bold;
+    font-size:100px;
+    background: linear-gradient(to right, #db3208, orange);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;  
+
+}
+.hpub3{
+    font-weight: bold;
+    font-size: xx-large;
+    background: linear-gradient(to right, #db3208, #f96f05);
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;  
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+
+}
+.container8-sub{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.tablet{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 50px;
+    top: 160px;
+    display: flex;
+
+}
+#tablet{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    right: 150px;
+    
+   
+}
+#tablet2{
+    width: 450px;
+    height: 450px;
+    margin: 30px;
+    padding: 30px;
+    right: 380px;
+    position: relative;
+    bottom: 150px;
+
+   
+}
+.install{
+    font-weight: bold;
+    font-size: xx-large;
+    color: #fa9e08; 
+
+}
+#install{
+    position: relative;
+    left: 205px;
+    top: 60px;
+    white-space: nowrap;
+
+}
+#pins{
+    position: relative;
+    white-space: nowrap;
+   
+}
+.cpins{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: 120px;
+    right: 10px;
+}
+.white-cart{
+    width: 350px;
+    height: 50px;
+    border-radius: 0.5em;
+    background-color: white;
+}
+#wc1{
+    position: relative;
+    top: 180px;
+    right: 200px;
+    width: 250px;
+
+}
+
+.pai{
+    font-weight: bold;
+    font-size: xx-large;
+    color:#f96f05;
+    margin: 3px;
+    padding: 3px;
+}
+#paip1{
+font-size: xx-small;
+position: relative;
+bottom: 45px;
+left: 35px;
+z-index: 1;
+
+}
+
+#wc2{
+    position: relative;
+   top: 180px;
+    right: 650px;
+    width: 250px;
+}
+#paip2{
+    font-size: medium;
+    position: relative;
+   color: black;
+    z-index: 1;
+    bottom: 45px;
+    font-size: xx-small;
+    left: 35px;
+}
+#das{
+    font-size: x-small;
+    font-weight: bold;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+#das2{
+    font-size: x-small;
+    font-weight: bold;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+.bg-color{
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    background-color: #fa9e08;
+}
+

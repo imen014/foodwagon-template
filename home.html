@@ -1,0 +1,689 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> WagonFood  </title>
+<link rel="icon" href="images/orange.ico" type="image/x-icon" />
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="file1.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+<nav id="nav1">
+<i class="bi bi-car-front text-color" id="icone1"></i>
+<strong id="wfn" style="color:#FF6F00">food<span class="text-color">waGon</span></strong>
+<p id="p1"> <strong> Deliver to: </strong>  Current Location<strong> Mirpur 1 Bus Stand, Dhaka</strong> </p>
+<div class="map-icon">
+ <i class="bi bi-geo-alt-fill text-danger"></i>
+ </div>
+<div class="search-container">
+<input type="text" placeholder="        search." id="search-input" />
+ <i class="bi bi-search" id="search-icone"></i>
+</div>
+<a class="login" href="#"><i class="bi bi-person-fill text-color"></i> Login</a>
+</nav>
+</header>
+<div class="cbody1">
+<div class="div1">
+<h1 id="h1">Are you starving? </h1>
+<h3 class="fh3">Within a few clicks, find meals</h3>
+<h3 class="fh3">thatare accessible near you</h3>
+<div class="box1">
+<button id="btn-box1"><i class="bi bi-bicycle"></i>Delivery</button>
+<button id="btn-box2"><i class="bi bi-bag-plus"></i>Pickup</button>
+</div>
+<form action="#">
+<input type="text" placeholder="          Enter Your Address." id="address_input"/>
+<div class="map-icon2" id="map-icon">
+ <i class="bi bi-geo-alt-fill text-color-map"></i>
+ </div>
+ <button id="find-btn">Find Food</button>
+</form>
+</div><!--div1-->
+<div class="div2"></div> <!--div2-->
+</div> <!--cbody1-->
+<div class="cbody2">
+<div class="legumes">
+<img src="images/legumes.png" alt="image legumes" id="legumes-img" />
+<div class="price-container" id="pcslg"></div>
+<h2 class="price" id="price-legumes">15</h2>
+<p id="pourcent">&#37;</p>
+<p id="offl">Off</p>
+<h2 class="titre-image" id="h2l">Flat Hill Slingback</h2>
+<p class="text-remaining" id="rml">6 days Remaining</p>
+
+
+</div>
+<div class="pasta">
+<img src="images/pasta-blanch.png" alt="image legumes" id="pasta-img" />
+<div class="price-container" id="pcsp"></div>
+<h2 class="price" id="price-pasta">10</h2>
+<p id="pourcent-p">&#37;</p>
+<p id="offp">Off</p>
+<h2 class="titre-image" id="h2p">Ocean Blue Ring</h2>
+<p class="text-remaining" id="rmp">6 days Remaining</p>
+
+
+
+</div>
+<div class="soupe">
+<img src="images/soupe.png" alt="image soupe" id="soupe-img" />
+<div class="price-container" id="pcs"></div>
+<h2 class="price" id="price-sp">25</h2>
+<p id="pourcent-sp">&#37;</p>
+<p id="off-sp">Off</p>
+<h2 class="titre-image" id="h2sp">Brown Leatheed Wallet</h2>
+<p class="text-remaining" id="rmsp">6 days Remaining</p>
+
+
+
+
+</div>
+<div class="salade">
+<img src="images/salade-cesar.png" alt="image salade" id="salade-img" />
+<div class="price-container" id="pcsl"></div>
+<h2 class="price" id="price-sl">20</h2>
+<p id="pourcent-sl">&#37;</p>
+<p id="off-sl">Off</p>
+<h2 class="titre-image" id="h2sl">Silverside Wristwatch</h2>
+<p class="text-remaining" id="rmsl">6 days Remaining</p>
+</div>
+</div> <!--cbody2-->
+<div class="cbody3">
+<h1 id="titre">How does it work</h1>
+<div class="spacer"></div>
+
+<div> <!--repeted-->
+ <i class="bi bi-geo-alt-fill icon-cb3" id="mapl"></i>
+ <h4 class="text-choice" id="choice1">Select location</h4>
+ <p id="mp">Choose the location where <br/> your food will be delivered.</p>
+</div> <!--repeted-->
+<div>
+<i class="bi bi-alarm-fill icon-cb3" id="alarm"></i>
+ <h4 class="text-choice" id="choice2">Choose order</h4>
+ <p id="mpp">Check over hundreds of <br/> menus to pick your favorite <br/> food</p>
+</div>
+<div>
+<i class="bi bi-currency-dollar icon-cb3" id="mapy"></i>
+ <h4 class="text-choice" id="choice3">Pay advanced</h4>
+<p id="mpd">It's quick, safe, and simple. <br/> Select several methods of <br/> payment</p>
+</div>
+<div>
+<i class="bi bi-egg-fried icon-cb3" id="mapf"></i>
+ <h4 class="text-choice" id="choice4">Enjoy meals</h4>
+ <p id="mpf">Food is made and delivered <br/> directly to your home.</p>
+</div>
+</div> <!--cbody3-->
+<div class="cbody4">
+<h1 class="hb4">Popular items</h1>
+<div class="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<div class="box-burger">  <!--box burger-->
+<img src="images/food1/cheese-burger2.png" alt="cheese burger image" id="burger-image" />
+<h3 id="hburger">Cheese Burger </h3>
+<div class="map-icon">
+ <i class="bi bi-geo-alt-fill" id="im1"></i>
+ <span id="sb"> Burger Arena </span>
+ <span id="bp">$3.88</span>
+ <div class="book" id="pos1">
+ <a href="#" class="link"> Order now</a>
+ </div>
+ </div>
+</div> <!--box burger-->
+
+<div class="toffes-box">
+<img src="images/food1/toffes-cake.png" alt="toffes cake image" id="toffes-cake-image" />
+<h3 id="htoffes">Toffe's Cake </h3>
+<div class="map-icon">
+ <i class="bi bi-geo-alt-fill" id="im2"></i>
+  <span id="sts"> Top Sticks </span>
+   <span id="tsp">$4.00</span>
+    <div class="book" id="orl2">
+ <a href="#" class="link" id="or2"> Order now</a>
+ </div>
+</div>
+</div>
+
+<div class="dancake-box">
+<img src="images/food1/dancake.png" alt="dancake image" id="dancake-image" />
+<h3 id="hdancake">Dancake </h3>
+<div class="map-icon">
+ <i class="bi bi-geo-alt-fill" id="im3"></i>
+   <span id="sdn"> Cake World </span>
+   <span id="dsp">$4.00</span>
+     <div class="book" id="orl3">
+ <a href="#" class="link" id="or3"> Order now</a>
+ </div>
+</div>
+</div> <!--dancake-->
+
+<div class="crispy-box">
+<img src="images/food1/crispy.png" alt="crispy image" id="crispy-image" />
+<h3 id="hcrispy">Crispy Sandwitch </h3>
+<div class="map-icon">
+ <i class="bi bi-geo-alt-fill" id="im4"></i>
+    <span id="scr"> Fastfood Dine</span>
+       <span id="csp">$3.00</span>
+            <div class="book" id="orl4">
+ <a href="#" class="link" id="or4"> Order now</a>
+ </div>
+</div>
+</div>
+
+<div class="soup-box">
+<img src="images/food1/thai.png" alt="thai image" id="thai-image" />
+<h3 id="hsoup">Thai Soup </h3>
+<div class="map-icon">
+ <i class="bi bi-geo-alt-fill" id="im5"></i>
+     <span id="sth"> Foody Man</span>
+    <span id="thp">$2.79</span>
+      <div class="book" id="orl5">
+ <a href="#" class="link" id="or5"> Order now</a>
+ </div>
+</div>
+</div>
+</div> <!--carousel item-->
+</div> <!--carousel inner-->
+</div> <!--carousel-->
+</div> <!--cbody4-->
+
+<div class="cbody5">
+<div id="titre-cbody5">
+<h1>Featured Restaurants</h1>
+</div>
+<div id="cbody5-container">
+<div id="egg-with-fromge">
+<div class="orange-cart">20&#37; off</div>
+<div class="fast"> <i class="bi bi-alarm-fill"></i>  Fast</div>
+<div class="logo-part" id="l1"><h6> <small> Freindly </small> </h6></div>
+</div>
+<div class="tc" id="tc1">
+<h4 id="t1">Food world</h4>
+<i class="bi bi-star-fill" id="icd1"> 46</i>
+<p class="pdc" id="opt1">Opens Tomorrow</p>
+</div>
+
+<div id="mokhito">
+<div class="orange-cart">10&#37; off</div>
+<div class="fast"> <i class="bi bi-alarm-fill"></i>  Fast</div>
+<div class="logo-part" id="l2"> <span class="mot1">Pizza</span> <br/>
+ <span class="mot2">Pino</span> <br/>
+ <span class="mot3">Restaurant</span></div>
+</div>
+<div class="tc" id="tc2">
+<h4 id="t2">Pizza hub</h4>
+<i class="bi bi-star-fill" id="icd2"> 40</i>
+<p class="pdc" id="opt2">Opens Tomorrow</p>
+
+
+</div>
+
+
+
+<div id="donuts">
+<div class="orange-cart">15&#37; off</div>
+<div class="fast">  <i class="bi bi-alarm-fill"  id="l3"></i>  Fast</div>
+<div class="logo-part" id="l3">
+<span class="mot4">DUNKIN'</span> <br/>
+<span class="mot5">DONUTS.</span>
+</div>
+<div class="tc" id="tc3">
+<h4 id="t3">Donuts hut</h4>
+<i class="bi bi-star-fill" id="icd3"> 20</i>
+<p class="open" id="open1">Open Now</p>
+</div>
+
+</div>
+
+
+<div id="donuts-hut">
+<div class="orange-cart">15&#37; off</div>
+<div class="fast"> <i class="bi bi-alarm-fill"></i>  Fast</div>
+<div class="logo-part" id="l4">
+<strong class="mot6">SUB</strong><strong class="mot7">WAY</strong>
+</div>
+<div class="tc" id="tc4">
+<h4 id="t4">Donuts hut</h4>
+<i class="bi bi-star-fill" id="icd4"> 50</i>
+<p class="open" id="open2">Open Now</p>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="cbody6">
+<div class="box2">
+<img src="food2/food3/ruby.png" alt="ruby meal" class="img-center">
+<div class="fast" id="ruby-fast">Fast</div>
+<div class="orange-cart2" id="ruby-orange-cart">10&#37; off</div>
+<div class="logo-part" id="ruby-logo"> <Strong style="color:red">Ruby</Strong><br/><strong style="color:white">Tuesday</strong></div>
+
+<div class="tc" id="ruby-ticket"></div>
+  <h4 class="ruby-ticket-component">Ruby Tuesday</h4>
+  <i class="bi bi-star-fill ruby-ticket-component" style="color: #FF6F00;"> 50</i>
+  <p class="open" id="opn1">Open Now</p>
+
+</div>
+
+<!---Fried chicken-->
+<div class="box2">
+  <img src="food2/food3/fried-chicken.png" alt="fried chiken" class="img-center">
+  <div class="fast" id="chicken-fast">Fast</div>
+  <div class="orange-cart2" id="fried-chicken-orange-cart">10&#37; off</div>
+  <div class="logo-part" id="fried-chicken-logo"> <strong id="kfc">KFC</strong> </div>
+
+  <div class="tc" id="chicken1">
+<h4 class="fried-chicken-ticket-component">Kuakata Fried Chiken</h4>
+<i class="bi bi-star-fill fried-chicken-ticket-component" style="color: #FF6F00;"> 50</i>
+<p class="open fried-chicken-ticket-component" id="opn2">Open Now</p>
+</div>
+</div>
+
+<!--Fried chicken2-->
+<div class="box2">
+  <img src="food2/food3/fried-chiken2.png" alt="fried chiken2" class="img-center">
+  <div class="fast" id="chicken-fast2">Fast</div>
+  <div class="orange-cart2" id="fried-chicken-orange-cart2">10&#37; off</div>
+  <div class="logo-part" id="fried-chicken-logo2"> <strong id="kfc2">Kuakata</strong> </div>
+
+  <div class="tc" id="chicken2">
+<h4 class="fried-chicken-ticket-component2">Kuakata Fried Chiken</h4>
+<i class="bi bi-star-fill fried-chicken-ticket-component2" style="color: #FF6F00;"> 50</i>
+<p class="open fried-chicken-ticket-component" id="opn3">Open Now</p>
+</div>
+</div>
+
+
+<!--Taco bell-->
+<div class="box2">
+  <img src="food2/food3/taco-bell.png" alt="taco-bell" class="img-center">
+  <div class="fast" id="taco-fast">Fast</div>
+  <div class="orange-cart2" id="taco-orange-cart2">10&#37; off</div>
+  <div class="logo-part" id="taco-logo"> <strong id="kfc3">Taco Bell</strong> </div>
+
+  <div class="tc" id="taco">
+<h4 class="fried-chicken-ticket-component2">Taco bell</h4>
+<i class="bi bi-star-fill fried-chicken-ticket-component2" style="color: #FF6F00;"> 50</i>
+<p class="open fried-chicken-ticket-component" id="opn4">Open Now</p>
+</div>
+</div>
+</div>
+
+<div class="cbody7_ext">
+
+<link rel="stylesheet" type="text/css" href="css/cbody7.css">
+
+<button style="color:white;width:150px;height:40px;" id="btn-view">VIEW ALL &gt; </button>
+<div id="cbody7-container">
+<div class="arrow-icon">
+<a href="#" id="link-view-all">VIEW ALL &gt; </a>
+<i class="bi bi-arrow-left-circle-fill arrow-icon" id="icon-arrow1" style="color: orange;"></i>
+<i class="bi bi-arrow-right-circle-fill arrow-icon" id="icon-arrow2" style="color: orange;"></i>
+
+</div>
+
+
+
+<div class="circlar-container">
+<img src="images/food4/pizza.png" alt="pizza" class="circlair-img" />
+<h3 class="inline" id="pz">pizza</h3>
+</div>
+<div class="circlar-container">
+<img src="images/food4/burger.png" alt="burger" class="circlair-img" />
+<h3 class="inline" id="bg">Burger</h3>
+
+
+</div>
+<div class="circlar-container">
+<img src="images/food4/noodles.png" alt="noodles" class="circlair-img" />
+<h3 class="inline" id="nood">Noodles</h3>
+
+</div>
+<div class="circlar-container">
+<img src="images/food4/sub-sandwiches.png" alt="sub-sandwiches" class="circlair-img" />
+<h3 class="inline" id="sub-sandwich">Sub-sandwiches</h3>
+
+</div>
+<div class="circlar-container">
+<img src="images/food4/showmein.png" alt="showmein" class="circlair-img" />
+<h3 class="inline" id="showmein">Showmein</h3>
+
+
+</div>
+<div class="circlar-container" >
+<img src="images/food4/steak.png" alt="steak" class="circlair-img"/>
+<h3 class="inline" id="steak">Steak</h3>
+
+
+</div>
+
+<div id="htexte">Search by Food</div>
+</div>
+</div>
+
+<div class="cbody8">
+<div class="cbody8-container">
+<div class="pub1">
+<i class="bi bi-bag-check-fill" id="idisc"></i>
+<h1 class="hdisc">  Daily</h1>
+<h1 class="hdisc">  Discounts</h1>
+</div>
+<div class="pub2">
+<i class="bi bi-geo-alt-fill" id="ipub2"></i>
+<h1 class="hpub2">  Live</h1>
+<h1 class="hpub2">  Tracking</h1>
+
+</div>
+<div class="pub3">
+<i class="bi bi-clock-history" id="ipub3"></i>
+<h1 class="hpub3">  Quick</h1>
+<h1 class="hpub3">  Delivery</h1>
+</div>
+</div>
+<div class="container8-sub">
+<div class="tablet">
+<img src="images/phone-unsplach.png" alt="smartphone" id="tablet">
+<img src="images/phone-unsplach.png" alt="smartphone" id="tablet2">
+
+</div>
+<h1 class="install" id="install">Install the app</h1>
+
+<div class="cpins">
+<p id="pins">It's never been easier to order food. Look for the finest <br/>
+discounts and you'll be lost in a world of delectable food.</p>
+</div>
+
+<div class="white-cart" id="wc1">
+<i class="bi bi-apple pai"></i>
+<p id="paip1">Download on the</p>
+<p id="das">APP STORE</p>
+
+
+</div>
+<div class="white-cart" id="wc2">
+<i class="bi bi-google-play pai"></i>
+<p id="paip2">GET IT ON</p>
+<p id="das2">GOOGLE PLAY</p>
+</div>
+</div>
+<div class="bg-color"></div>
+
+<div class="cbody9">
+<div class="cbody9-cont">
+<div id="part1">
+<p class="bs"> <strong> Best deals </strong> <strong class="clo"> Crispy </strong> </p>
+<p class="bs clo" id="bs2"> Sandwiches</p>
+<p id="pe">Enjoy the large size of sandwiches. Complete </p>
+ <p id="pe2">your meal with the perfect slice of </p>
+ <p id="pe3">sandwiches.</p>
+ <button id="bte">PROCEED TO ORDER &gt;</button>
+</div>
+<div id="part2">
+<img src="images/jambon2.png" alt="jambon" id="jambon" />
+</div>
+</div>
+</div>
+<div class="cbody10">
+<div class="cbody10-container">
+<div class="part101">
+<img src="images/chicken.png" alt="chicken" id="chicken" />
+
+</div>
+<div class="part102">
+<p> <strong class="pdes1"> Celebrate parties with </strong> <br/>  <strong class="pdes">  Fried Chicken </strong></p>
+<p class="pdes3">Get the best fried chicken smeared with a lip <br/>
+ smacking lemon chili flavor. Check out best <br/>
+  deals for fried chicken.</p>
+   <button id="bte-des">PROCEED TO ORDER &gt;</button>
+</div>
+</div>
+</div>
+
+<div class="cbody11">
+<div class="cbody11-container">
+
+<div class="part111">
+<h1 id="ht"> <strong> Wanna eat hot &amp; </strong> <br/> <strong class="sph"> spicy Pizza? </strong></h1>
+<p id="pht">Pair up with a friend and enjoy the hot and  <br/> 
+crispy pizza pops. Try it with the best deals.</p>
+ <button id="bth">PROCEED TO ORDER &gt;</button>
+
+</div>
+<div class="part112">
+<img src="images/pizza3.png" alt="pizza3" id="pizza3" />
+</div>
+</div>
+</div>
+
+<div class="cbody-final">
+<h1 id="hfinal">Are you ready to order <br/>
+with the best deals?</h1>
+ <button id="bth-final">PROCEED TO ORDER &gt;</button>
+ <div class="cfinal1">
+ <img src="images/salade.png" alt="salade" id="saladef" />
+ </div>
+<div class="cfinal2">
+ <img src="images/frite.png" alt="frite" id="fritef" />
+</div>
+</div>
+<footer>
+
+
+<div class="footer">
+<div class="cfooter1">
+<h1 class="topc">OUR TOP CITIES</h1>
+<!--col1-->
+<div class="col1">
+<ul>
+<li>
+<a href="#">San Fransisco</a>
+</li>
+<li>
+<a href="#">Miami</a>
+</li>
+<li>
+<a href="#">San Diego</a>
+</li>
+<li>
+<a href="#">East Bay</a>
+</li>
+<li>
+<a href="#">Long Beach</a>
+</li>
+</ul>
+</div>
+
+<!--col2-->
+<div class="col1">
+<ul>
+<li>
+<a href="#">Los Angeles</a>
+</li>
+<li>
+<a href="#">Washington DC</a>
+</li>
+<li>
+<a href="#">Seattle</a>
+</li>
+<li>
+<a href="#">Portland</a>
+</li>
+<li>
+<a href="#">Nashville</a>
+</li>
+</ul>
+</div>
+
+<!--col3-->
+<div class="col1">
+<ul>
+<li>
+<a href="#">New York City</a>
+</li>
+<li>
+<a href="#">Orange County</a>
+</li>
+<li>
+<a href="#">Atlanta</a>
+</li>
+<li>
+<a href="#">Charlotte</a>
+</li>
+<li>
+<a href="#">Denver</a>
+</li>
+</ul>
+</div>
+
+<!--col4-->
+<div class="col1">
+<ul>
+<li>
+<a href="#">Chicago</a>
+</li>
+<li>
+<a href="#">Phoenix</a>
+</li>
+<li>
+<a href="#">Las Vegas</a>
+</li>
+<li>
+<a href="#">Sacramento</a>
+</li>
+<li>
+<a href="#">Oklahoma City</a>
+</li>
+</ul>
+</div>
+
+<!--col5-->
+<div class="col1">
+<ul>
+<li>
+<a href="#">Columbus</a>
+</li>
+<li>
+<a href="#">New Mexico</a>
+</li>
+<li>
+<a href="#">Albuquerque</a>
+</li>
+<li>
+<a href="#">Sacramento</a>
+</li>
+<li>
+<a href="#">New Orleans</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="cfooter2">
+<h2 class="topc2" id="company">COMPANY</h2>
+<ul id="list2-col1">
+<li>
+<a href="#">About Us</a>
+</li>
+<li>
+<a href="#">Team</a>
+</li>
+<li>
+<a href="#">Careers</a>
+</li>
+<li>
+<a href="#">blog</a>
+</li>
+</ul>
+
+<!--list2 col2-->
+<h2 class="topc2" id="contact">CONTACT</h2>
+
+<ul id="list2-col2">
+<li>
+<a href="#">Help &amp; Support</a>
+</li>
+<li>
+<a href="#">Partner with us</a>
+</li>
+<li>
+<a href="#">Ride with us</a>
+</li>
+<li>
+<a href="#">Ride with us</a>
+</li>
+</ul>
+
+<!--list2 col3-->
+<h2 class="topc2" id="legal">LEGAL</h2>
+
+<ul id="list2-col3">
+<li>
+<a href="#">Terms &amp; Conditions</a>
+</li>
+<li>
+<a href="#">Refund &amp; Cancellation</a>
+</li>
+<li>
+<a href="#">Privacy Policy</a>
+</li>
+<li>
+<a href="#">Cookie Policy</a>
+</li>
+</ul>
+
+<!--list2 col4-->
+<h2 class="topc2" id="legal2">LEGAL</h2>
+
+<ul id="list2-col4">
+<li>
+<a href="#">Terms &amp; Conditions</a>
+</li>
+<li>
+<a href="#">Refund &amp; Cancellation</a>
+</li>
+<li>
+<a href="#">Privacy Policy</a>
+</li>
+<li>
+<a href="#">Cookie Policy</a>
+</li>
+</ul>
+</div>
+
+<div class="ccontact">
+<div class="cform">
+<h1 id="tfw">FOLLOW US</h1>
+
+<div class="cincon">
+<i class="bi bi-instagram"></i>
+<i class="bi bi-facebook"></i>
+<i class="bi bi-twitter"></i>
+</div>
+
+<p class="cincon" id="tsub">Receive exclusive offers and <br/>
+discounts in your mailbox</p>
+
+<form action="#" id="cformf">
+<input type="email" placeholder="            Enter Email" />
+<input type="submit" value="Subscribe" />
+<i class="bi bi-instagram" id="idm"></i>
+</form>
+</div>
+
+<div class="last-part"></div>
+<p class="copyright">All rights Reserved &copy; Rezgui Imen, 2024</p>
+<p class="made-by">Inspired by ThemeWagon,  Made with <i class="bi bi-heart-fill" id="idmf"></i>  by Rezgui Imen </p>
+
+</div>
+</div>
+</footer>
+</body>
+</html>
